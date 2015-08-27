@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Gifeed</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrap.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  
+  <body>
+    <h1 id="gifs"> Your GIF Feed! </h1>
+    <a id="gif_link" href="/new_gif"> Upload a New GIF </a> <br> 
+    <a id="gif_link" href="/"> Go to Homepage </a> <br>
+    
+    <% @gifs.each do |gif| %>
+    <p><%= gif.user.username %> <img src="<%= gif.url %>"> </p><br>
+    <%end%>
+  </body>
+  
+</html>

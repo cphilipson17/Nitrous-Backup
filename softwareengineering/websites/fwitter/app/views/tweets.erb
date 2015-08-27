@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Day 1 Fwitter</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrap.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+  </head>
+  
+  <body>
+    <p> Hello Fwitter </p>
+    
+    <% @tweets.each do |tweet| %>
+    <%= tweet.username %> <%= tweet.content %> <br>
+    <% end %>
+    
+  </body>
+  
+</html>

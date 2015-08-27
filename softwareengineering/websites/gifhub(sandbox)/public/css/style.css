@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro);
+
+body{
+  text-align: center;
+   background-image: url('/images/flying-through-space.gif');
+  background-size: cover;
+}
+
+#index{
+  background-image: url('/images/jake-1.gif');
+  background-size: cover;
+/*   text-align: left; */
+  transform:translateY(-50px);
+}
+
+#index_tag{
+  margin: 300px;
+}
+
+#new_gif{
+  background-image: url('/images/clouds.gif');
+  background-size: cover;
+}
+
+#gifs{
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 100px;
+  color: white;
+  transform:translateY(-50px);
+  margin-bottom: 0px;
+}
+
+#gif_link{
+  transform:translateY(-100px);
+  text-decoration: none;
+  font-family: 'Advent Pro', sans-serif;
+  transition: color 3s, font-size 3s;
+}
+
+h1{
+  padding: 25px;
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 12vh;
+  color: white;
+}
+
+p{
+  color: white;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Advent Pro', sans-serif;
+  transition: color 3s, font-size 3s;
+}
+
+a:hover{
+  color: blue;
+  text-decoration: none;
+  font-size: 25px;
+}

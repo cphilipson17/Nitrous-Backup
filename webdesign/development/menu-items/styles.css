@@ -1,0 +1,13 @@
+.menuItem {
+    background-color: gray;
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+
+#content {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+    height: 20px;
+}
